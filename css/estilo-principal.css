@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: var(--color-rojo);
+    box-sizing: border-box;
+}
+
+/* Declaracion de variable */
+:root{
+ --color-rojo: white;
+}
+.titulo{   
+    width: 100%;
+    background-color: brown;
+    color:white;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 0 0 5px 1px brown;
+}
+section > h2{
+    font-size:25px ;
+    color: #01061f;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+/* Logo */
+.contenedor-logo{
+    font-size:25px ;
+    color: #01061f;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+ section > .contenedor-logo > .logo-imagen{
+   margin: 10px auto;
+   width: 100%;
+}
+
+.contenedor-logo{
+    width: 80vw;
+    margin: 0 auto;
+}
+.contenedor-logo:hover .logo-imagen{
+ -webkit-transform:scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8); 
+    /* border-radius: 30%; */
+    transform:scale(0.8);
+    /* border: 2px solid blue;   */
+    /* filter: opacity(50%); */
+}
+
+
+/* Pie de pagina */
+#footer{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    margin:0px auto;
+    align-self: flex-end;
+    box-shadow: 0 0 5px 2px;
+ }
+ #footer > a{
+    /* width: 50%; */
+    flex-direction:row ;
+    flex-wrap: wrap;
+}
+
+#footer, h4, h5{
+    font-size:20px;
+    /* box-shadow: 0 0 5px 1px; */
+}
+hr{
+    background-color:blueviolet;
+    font-size:5px;
+}
+
+#ver_mas{
+    background-color: green;
+    color: white;
+    margin: 15px auto;
+    text-align: center;
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+}
+ /* #footer, h4, h5{
+    padding: 50px 50px 50px 50px;
+ } */
+
+
+ /* #footer > p{
+     margin: inline-block;
+ } */
+
+ /* .derechos{ */
+     /* border: 1px dashed black; */
+     /* padding: 5px 5px 5px 5px;
+     margin-bottom: 0px; */
+     /* display: flex;
+     flex-wrap: wrap;
+     flex-direction: row; */
+     /* margin-left: 30%;
+     margin-right: 30%; */
+
+ /* } */
+/* 
+ .derechos > small{
+    color: black;
+    text-align: center;
+ } */
