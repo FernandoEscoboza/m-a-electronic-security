@@ -1,0 +1,171 @@
+@import 'bootstrap/bootstrap';
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+body {
+    background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
+    min-width: 100%;
+    min-height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+h1{
+    margin:30px;
+    padding-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.container .card .content button{
+    border:2px solid beige;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+    
+}
+.container .card .content button a{
+    text-decoration: none;
+    color: beige;
+    display: inline;
+    
+    
+}
+.container .card .content button a:hover{
+     color: beige;
+    border-bottom: beige;
+}
+
+
+.container .card {
+    max-width: 300px;
+    height: 215px;
+    margin: 80px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out
+}
+
+.container .card:hover {
+    height: 600px
+}
+
+.container .card .imgContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -50px;
+    left: 10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2)
+}
+
+.container .card .imgContainer img {
+    max-width: 100%;
+    border-radius: 4px
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 10px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    /* pointer-events: none; */
+    transition: 0.3s ease-in-out
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s
+}
+
+@media (max-width: 330px) {
+    .container .card .imgContainer {
+        left: -2px
+    }
+}
+
+.container .imgContainer:hover .titulo{
+    visibility: hidden;
+}
+/* --------------------------------------- footer--------------------------------- */
+
+.ftco-footer-social  li {
+	list-style: none;
+	margin: 0 10px 0 0;
+	display: inline-block;
+}
+.ftco-footer-social  li a {
+	height: 40px;
+	width: 40px;
+	display: block;
+	background: rgba(black, .05);
+	border-radius: 50%;
+	position: relative;
+}
+.ftco-footer-social  a span {
+    position: absolute;
+	font-size: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.ftco-footer-social li a:hover {
+	color: white;
+}
+		
+.footer-07{
+	background: #121212;
+}
+
+.footer-07 a{
+    color: #007bff;
+}
+.footer-07 p{
+    color: rgba(255,255,255,.3);
+}
+.footer-heading{
+		font-size: 30px;
+		color: white;
+		font-weight: 700px;
+		margin-bottom: 30px;
+        margin-top: 30px;
+}
+
+.footer-heading .logo{
+	color: white;
+    
+}
+	
+.menu{
+		margin-bottom: 30px;
+}
+.menu a{
+    color: rgba(255,255,255,.6);
+	margin: 0 auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+	
+.ftco-footer-social li a{
+	background: transparent;
+	border: 1px solid #007bff;	
+}
+
+
+
+
+
